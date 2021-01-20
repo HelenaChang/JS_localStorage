@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background: linear-gradient(to left,	#ECECFF,#ACD6FF);
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h1.title {
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 38px;
+  color:#003D79;
+}
+
+.content {
+  padding-top:20px;
+  border-top: 3px solid	#005AB5;
+}
+
+input {
+  margin-left: 10px;
+}
+
+input[type="button"]{
+  background: none;
+  border:2px solid #003D79;
+  border-radius:5px;
+  color:#003D79;
+}
+
+input[type="button"]:hover {
+  background:#003D79;
+  color: #97CBFF;
+} 
+
+ul,li{
+  list-style: none;
+  margin: 10px;
+}
+
+li>a {
+  text-decoration: none;
+  color:#003D79;
+}
+
+li>a:hover {
+  color:#930000;
+}
